@@ -1,6 +1,7 @@
 absl-py==0.12.0
 alabaster==0.7.12
 altair==4.1.0
+anaconda-client==1.7.2
 anaconda-navigator==1.10.0
 anaconda-project==0.8.3
 appdirs==1.4.4
@@ -18,9 +19,9 @@ autopep8 @ file:///tmp/build/80754af9/autopep8_1596578164842/work
 autoviz==0.0.81
 Babel @ file:///tmp/build/80754af9/babel_1605108370292/work
 backcall==0.2.0
-backports.functools-lru-cache==1.6.1
+backports.functools-lru-cache @ file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work
 backports.shutil-get-terminal-size==1.0.0
-backports.tempfile==1.0
+backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
 backports.weakref==1.0.post1
 base58==2.1.0
 bcrypt @ file:///C:/ci/bcrypt_1597936263757/work
@@ -42,9 +43,9 @@ cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
 clyent==1.2.2
 colorama @ file:///tmp/build/80754af9/colorama_1603211150991/work
 comtypes==1.1.7
-conda==4.10.0
+conda==4.10.1
 conda-build==3.20.5
-conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/work
+conda-package-handling @ file:///C:/ci/conda-package-handling_1618262320430/work
 conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography @ file:///C:/ci/cryptography_1601046905460/work
