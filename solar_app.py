@@ -205,7 +205,7 @@ def main():
 					#st.write('')
 					
 					st.write('Forecast report')
-					 st.dataframe(df_all)
+					st.dataframe(df_all)
 								
 			
 				elif state_code ==2:
@@ -283,7 +283,7 @@ def main():
 	else :
 		colx, coly, colz = st.beta_columns(3)
 		with coly:
-			st.header('Comment Section')
+			st.header('                                 '+'Comments')
 		Date2 = st.date_input('Select Date')
 		Date2 = str(Date2)
 		st.write('')
