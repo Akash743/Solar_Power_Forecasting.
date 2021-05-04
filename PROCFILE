@@ -1,3 +1,1 @@
 web: sh setup && streamlit run solar_app.py
-web: sh setup && streamlit run solar_dsm.py
-web: sh setup && streamlit run solar_ml.py
