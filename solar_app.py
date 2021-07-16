@@ -273,8 +273,8 @@ def main():
 				
 
 	elif choice == 'Load Data':
-		colc, cold, cole, colf, colg = st.beta_columns([2,4,1])
-		with cole:
+		colc, cold, cole= st.beta_columns([2,4,1])
+		with cold:
 			st.title('Load Data')
 
 		Date = st.date_input('Select Date')
