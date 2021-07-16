@@ -155,7 +155,7 @@ def main():
 
 
 	elif choice == 'Forecast Analysis':
-		col10, col11, col12 = st.beta_columns(3)
+		col10, col11, col12 = st.beta_columns([1,4,1)
 		with col11:
 			st.title('Forecast Analysis')
 
