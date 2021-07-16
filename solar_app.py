@@ -273,7 +273,7 @@ def main():
 				
 
 	elif choice == 'Load Data':
-		colc, cold, cole= st.beta_columns([2,4,1])
+		colc, cold, cole= st.beta_columns([2.8,4,1])
 		with cold:
 			st.title('Load Data')
 
@@ -293,7 +293,7 @@ def main():
 
 		
 	else :
-		colx, coly, colz = st.beta_columns([2,5,1])
+		colx, coly, colz = st.beta_columns([2.2,5,1])
 		with coly:
 			st.title('Comment Section')
 		Date2 = st.date_input('Select Date')
