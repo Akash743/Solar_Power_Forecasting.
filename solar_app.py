@@ -157,7 +157,7 @@ def main():
 	elif choice == 'Forecast Analysis':
 		col10, col11, col12 = st.beta_columns(3)
 		with col11:
-			st.header('Forecast Analysis')
+			st.title('Forecast Analysis')
 
 		st.write('')
 		st.subheader('MAPE & DSM Calculation')
