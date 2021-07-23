@@ -100,6 +100,8 @@ def main():
 		st.write('')
 		st.write('')
 		st.subheader('Multiple Blocks Prediction')
+		st.write('')
+		
 		colla, collab = st.beta_columns(2)
 		with colla:
 			fr_date = st.date_input('From')
