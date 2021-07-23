@@ -99,7 +99,13 @@ def main():
 		st.write('')
 		st.write('')
 		st.write('')
-		st.subheader('Predict using File')
+		st.subheader('Multiple Blocks Prediction')
+		colla, collab = st.beta_columns(2)
+		with colla:
+			fr_date = st.date_input('From')
+
+		with collab:
+			t_date = st.date_input('To')
 		uploaded_file = st.file_uploader("Choose a csv file", type="csv")
 		
 		if uploaded_file is not None:
