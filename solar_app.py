@@ -77,7 +77,7 @@ def main():
 
 		#     st.header('Solar Power Forecasting')	
 		
-		st.subheader('Enter Values')
+		st.subheader('Single Block Prediction')
 		colp,colq,colr = st.beta_columns(3)
 		with colp:
 			AMBIENT_TEMPERATURE = st.number_input("Ambient Temperature")
