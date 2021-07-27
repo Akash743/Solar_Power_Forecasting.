@@ -308,13 +308,16 @@ def main():
 
 		
 	else :
-		colx, coly, colz = st.beta_columns([2.2,5,1])
+		colx, coly = st.beta_columns([2.2,5])
 		with coly:
 			st.title('Comment Section')
-		Date2 = st.date_input('Select Date')
-		Date2 = str(Date2)
-		st.write('')
-		st.write('')
+		colg, colh = st.beta_columns(2)
+		with colg:
+			Date2 = st.date_input('Select Date')
+		with colh:
+			menuh = ['Person 1','Person 2','Person 3']
+			choiceh = st.selectbox('Shift Incharge',menuh)
+
 		
 		message = st.text_area("Enter Comment",height=100)
 		st.write('')
