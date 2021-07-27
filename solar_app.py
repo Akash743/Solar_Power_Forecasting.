@@ -78,7 +78,10 @@ def main():
 		#     st.header('Solar Power Forecasting')	
 		
 		st.subheader('Single Block Prediction')
-		colp,colq,colr = st.beta_columns(3)
+		col12,colp,colq,colr = st.beta_columns(4)
+		with col12:
+			Plant = ['Plant 1','Plant 2','Plant 3','Plant 4']
+			choice_plant = st.selectbox('Plant',Plant)
 		with colp:
 			AMBIENT_TEMPERATURE = st.number_input("Ambient Temperature")
 		with colq:
@@ -86,7 +89,7 @@ def main():
 		with colr:
 			IRRADIATION = st.number_input("Irradiation",0.00,1.50)
 		st.write('')
-		st.write('')	
+		st.write('')		
 		if st.button('Predict'):
 			
 			single_value = np.array([AMBIENT_TEMPERATURE,MODULE_TEMPERATURE,IRRADIATION]).reshape(1,-1)
@@ -314,18 +317,19 @@ def main():
 		st.write('')
 		
 		if st.button('Submit'):
-			comment_dict = np.load('comment_section_solar.npy',allow_pickle='TRUE').item()
-			comment_dict[Date2] = message
-			np.save('comment_section_solar.npy',comment_dict)
-			#comment_df = pd.DataFrame(comment_dict)
-			#st.dataframe(comment_df)
-			#comment_dict = np.load('comment_section_solar.npy',allow_pickle='TRUE').item()
-			st.success('Comment successfully entered!')
+			comment_section = pd.read_csv('comment_df.csv')
+			
+			# comment_section.loc[len(comment_section),'Date'] = str(Date2)
+			# comment_section.loc[len(comment_section),'Shift Incharge'] = choiceh
+			# comment_section.loc[len(['Comment'] = message
+			comment_section.loc[len(comment_section)] = [str(Date2),choiceh,message]
+			comment_section.to_csv('comment_section.csv')
+			st.success('Comment saved successfully!')
 			st.write('')
 			st.write('')
-			comment_df = pd.Series(comment_dict).to_frame()
-			comment_df.columns=['Comment']
-			csv_downloader(comment_df)
+			# comment_df = pd.Series(comment_dict).to_frame()
+			# comment_df.columns=['Comment']
+			csv_downloader(comment_section)
 			
 		#if st.button('Load all Comments'):
 			
