@@ -83,11 +83,11 @@ def main():
 			Plant = ['Plant 1','Plant 2','Plant 3','Plant 4']
 			choice_plant = st.selectbox('Plant',Plant)
 		with colp:
-			AMBIENT_TEMPERATURE = st.number_input("Ambient Temperature")
+			AMBIENT_TEMPERATURE = st.number_input("Ambient Temperature(°C)
 		with colq:
-			MODULE_TEMPERATURE = st.number_input("Module Temperature")
+			MODULE_TEMPERATURE = st.number_input("Module Temperature(°C)")
 		with colr:
-			IRRADIATION = st.number_input("Irradiation",0.00,1.50)
+			IRRADIATION = st.number_input("Irradiation(kW/m²",0.00,1.50)
 		st.write('')
 		st.write('')		
 		if st.button('Predict'):
