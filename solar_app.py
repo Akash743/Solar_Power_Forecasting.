@@ -308,7 +308,7 @@ def main():
 
 		
 	else :
-		colx, coly = st.beta_columns([2.2,5])
+		colx, coly = st.beta_columns([2,5])
 		with coly:
 			st.title('Comment Section')
 		colg, colh = st.beta_columns(2)
