@@ -120,6 +120,10 @@ def main():
 			st.write('Uploaded file')
 			st.dataframe(df.iloc[:,1:6])
 			#save_uploaded_file(uploaded_file)
+		
+		st.write('')
+		st.write('')
+		
 		if st.button('Predict',key=2):
 			prediction_df = run_ml_app(df_n)	
 			prediction_df = pd.concat([df[['DATE_TIME','BLOCK']],pd.Series(prediction_df)/1000],axis=1)
