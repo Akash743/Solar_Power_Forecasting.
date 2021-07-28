@@ -105,12 +105,16 @@ def main():
 		st.subheader('Multiple Blocks Prediction')
 		st.write('')
 		
-		colla, collab = st.beta_columns(2)
+		collac, colla, collab = st.beta_columns(3)
+		with collac:
+			Plant_ = ['Plant 1','Plant 2','Plant 3','Plant 4']
+			choice_plan_ = st.selectbox('Plant',Plant_,key='001')
+
 		with colla:
 			fr_date = st.date_input('From')
 
 		with collab:
-			t_date = st.date_input('To')
+			t_date = st.date_input('To')	
 		uploaded_file = st.file_uploader("Choose a csv file", type="csv")
 		
 		if uploaded_file is not None:
