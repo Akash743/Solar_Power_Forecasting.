@@ -68,10 +68,10 @@ def main():
 	
 	stc.html(html_temp)
 
-	menu = ['Forecast','Forecast Analysis','Load Data','Comment Section']
+	menu = ['Generate Forecast','Forecast Analysis','Load Data','Comment Section']
 	choice = st.sidebar.selectbox('Menu',menu)
 
-	if choice == 'Forecast':
+	if choice == 'Generate Forecast':
 		# colz,colx,coly = st.beta_columns([1,4,1])
 		# with colx:
 
