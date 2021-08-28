@@ -328,7 +328,7 @@ def main():
 		st.write('')
 		
 		if st.button('Submit'):
-			comment_section = pd.read_csv('comment_df.csv')
+			comment_section = pd.read_csv('comment_df.csv',index_col=0)
 			
 			# comment_section.loc[len(comment_section),'Date'] = str(Date2)
 			# comment_section.loc[len(comment_section),'Shift Incharge'] = choiceh
