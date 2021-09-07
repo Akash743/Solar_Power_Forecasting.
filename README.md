@@ -17,7 +17,10 @@ DATE_TIME	15 minute timestamp
 
 
 
-Weather Data
+Weather Sensor Data
+
+			![image](https://user-images.githubusercontent.com/57750483/132390415-896c6d3d-702c-4b51-b620-ef9fd54b9fda.png)
+
 
 
 
