@@ -10,16 +10,19 @@ Dataset:
 Generation dataset and one sensor readings dataset
 The power generation datasets are gathered at the inverter level - each inverter has multiple lines of solar panels attached to it.
 Generation Data: It has 4 columns namely:
-DATE_TIME	15 minute timestamp							
+ The power generation datasets are gathered at the inverter level - each inverter has multiple lines of solar panels attached to it.						
 						
 ![image](https://user-images.githubusercontent.com/57750483/132389199-707646ac-cb4d-41ae-8f5a-a63a72fcffc2.png)
 						
 
-
+Here, the DC and AC power can be further analyzed to find out the DC to AC conversion efficiency, maintenance requirements, etc.
 
 Weather Sensor Data
 
 ![image](https://user-images.githubusercontent.com/57750483/132390415-896c6d3d-702c-4b51-b620-ef9fd54b9fda.png)
+
+Total no. of records = 69,000
+
 
 
 
