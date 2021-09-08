@@ -23,6 +23,25 @@ Weather Sensor Data
 
 Total no. of records = 69,000
 
+##Importing all necessary packages
+
+`import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
+import zipfile
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression  
+from sklearn.linear_model import Ridge
+from sklearn.linear_model import Lasso
+from sklearn.metrics import mean_squared_error
+`
+
+
 
 
 
