@@ -11,6 +11,7 @@ https://share.streamlit.io/akash743/solar_power_forecasting/main/solar_app.py
 
 
 **AIM**
+
 Forecast the generation of the solar plant for future time blocks based on forecasted weather parameters like Irradiance, ambient temperature, humidity, wind speed and other relevant parameters.
 **Dataset:** https://www.kaggle.com/anikannal/solar-power-generation-data?select=Plant_2_Weather_Sensor_Data.csv
 - Generation dataset
