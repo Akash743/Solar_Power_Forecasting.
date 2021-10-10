@@ -26,7 +26,7 @@ Weather Sensor Data
 - Exploratory Data Analysis
 - Handling outliers
 - Model Building & Predictions
-- Analysis as per Indian Power Sector Regulations DSM Regulations
+- Analysis as per Indian Power Sector Regulations Deviation Settlement Regulations
 
 
 
