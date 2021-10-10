@@ -14,6 +14,7 @@ The power generation datasets are gathered at the inverter level - each inverter
  ![image](https://user-images.githubusercontent.com/57750483/132389199-707646ac-cb4d-41ae-8f5a-a63a72fcffc2.png)
 						
 Weather Sensor Data
+
 ![image](https://user-images.githubusercontent.com/57750483/132390415-896c6d3d-702c-4b51-b620-ef9fd54b9fda.png)
 
 **Contents of the notebook**
