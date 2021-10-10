@@ -30,7 +30,7 @@ html_temp = """
 		"""
 
 # Setting Page icon
-img = Image.open("GMR.jpg")
+img = Image.open("21.jpg")
 PAGE_CONFIG = {"page_title":"Solar Fx","page_icon":img,"layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)	
 
