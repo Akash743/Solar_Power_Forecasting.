@@ -3,7 +3,8 @@
 **Detailed blog published on Medium**:https://medium.com/@akashprabhakar427/solar-power-forecasting-using-machine-learning-and-deep-learning-61d6292693de
 
 **Working App deployed for the same with folowing functionalities:**
-https://share.streamlit.io/akash743/solar_power_forecasting/main/solar_app.py
+https://akash743-solar-power-forecasting-solar-app-wpm4ik.streamlitapp.com/
+
 - Generating Forecast
 - Forecast Analysis
 - Loading Previous days Actual and Predcited Data
